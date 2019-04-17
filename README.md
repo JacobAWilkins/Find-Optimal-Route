@@ -4,6 +4,9 @@
 
 #### Language: C++
 
+#### Description
+	The program computes a route between the source and destination city, and prints out both length of the route and a list of all the cities on the route.
+
 #### Structure (Refer to comments): 
 	1. Node and successor array are defined as structs
 	2. Expanding fringe function is defined as SuccFunc
