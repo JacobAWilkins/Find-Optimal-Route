@@ -1,3 +1,27 @@
+/*H************************************************************************************
+* FILENAME :        find_route.cpp
+*
+* DESCRIPTION :
+*       Finds the shortest route between cities
+*
+* FUNCTIONS :
+*       vector<struct succ> SuccFunc( int, succ , char[] )
+*       int                 MinIndex( queue<struct node *>, int )
+*       void                InsertToEnd( queue<struct node *>, int )
+*       void                SortFringe( queue<struct node *> )
+*       int                 MinIndexHeur( queue<struct node *>, int, heur[], int )
+*       void                SortFringeHeur( queue<struct node *>, heur[], int )
+*
+* NOTES :
+*       The route can be calculated with
+*       or without a heuristics file.
+*
+*       Copyright 2019, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    23 Jan 19
+*
+*H*/
+
 #include <iostream>
 #include <string>
 #include <vector>
